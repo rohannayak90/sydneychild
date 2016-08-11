@@ -1,0 +1,40 @@
+/* 
+Theme Name:		Sydney Child
+Theme URI:		http://murarim.com
+Description:		Free Sydney Child theme
+Author:			Murari M
+Author URI:		http://murarim.com/
+Template:		sydney
+Version:		1.0.0
+Text Domain:		Sydney-child
+-------------------------------------------------------------- */ 
+
+/* =Theme customization starts here
+------------------------------------------------------- */
+
+body {
+	line-height: 1.5;
+}
+article img {
+	width: 100%;
+}
+.hentry .title-post {
+	font-size: 32px;
+}
+#mainnav ul li a {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+footer .site-info {
+	font-size: 14px;
+}
+
+a:hover, a:focus {
+	color: #ff0000;
+	text-decoration: underline;
+	-webkit-transition: all 0.1s ease-in-out;
+	-moz-transition: all 0.1s ease-in-out;
+	-ms-transition: all 0.1s ease-in-out;
+	-o-transition: all 0.1s ease-in-out;
+	transition: all 0.1s ease-in-out; 
+}
