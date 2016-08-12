@@ -10,7 +10,7 @@
 get_header(); ?>
 
 	<div id="primary" class="content-area <?php echo sydney_blog_layout(); ?>">
-		<main id="main" class="post-wrap" role="main">
+		<main id="main" class="post-wrap roll-team carousel owl-carousel owl-theme" role="main" style="display:block;">
 
 		<?php if ( have_posts() ) : ?>
 
@@ -21,7 +21,7 @@ get_header(); ?>
 				?>
 			</header><!-- .page-header -->
 
-			<div class="posts-layout">
+			<div class="posts-layout owl-wrapper" style="display:block;">
 			<?php while ( have_posts() ) : the_post(); ?>
 				<?php
 					/* Include the Post-Format-specific template for the content.

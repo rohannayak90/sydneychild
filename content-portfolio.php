@@ -1,43 +1,32 @@
 <?php
 /**
- * @package Sydney
+ * This is to show the individual items in the Portfolio archive page
+ * @package Sydney Child
  */
 ?>
 
-<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-
-	<?php if ( has_post_thumbnail() && ( get_theme_mod( 'index_feat_image' ) != 1 ) ) : ?>
-		<div class="entry-thumb">
-			<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_post_thumbnail('sydney-large-thumb'); ?></a>
-		</div>
-	<?php endif; ?>
-
-	<header class="entry-header">
-		<?php the_title( sprintf( '<h2 class="title-post"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h2>' ); ?>
-
-		<?php if ( 'post' == get_post_type() && get_theme_mod('hide_meta_index') != 1 ) : ?>
-		<div class="meta-post">
-			<?php sydney_posted_on(); ?>
-		</div><!-- .entry-meta -->
-		<?php endif; ?>
-	</header><!-- .entry-header -->
-
-	<div class="entry-post">
-		<?php if ( (get_theme_mod('full_content_home') == 1 && is_home() ) || (get_theme_mod('full_content_archives') == 1 && is_archive() ) ) : ?>
-			<?php the_content(); ?>
-		<?php else : ?>
-			<?php the_excerpt(); ?>
-		<?php endif; ?>
-
-		<?php
-			wp_link_pages( array(
-				'before' => '<div class="page-links">' . __( 'Pages:', 'sydney' ),
-				'after'  => '</div>',
-			) );
-		?>
-	</div><!-- .entry-post -->
-
-	<footer class="entry-footer">
-		<?php sydney_entry_footer(); ?>
-	</footer><!-- .entry-footer -->
-</article><!-- #post-## -->
+<div class="owl-item col-md-4">
+    <div class="team-item">
+        <div class="team-inner">
+            <div class="pop-overlay">
+                <div class="team-pop">
+                    <div class="team-info">                        
+                        <div class="name"><?php the_title(); ?></div>
+                        <div class="pos"><a href="<?php echo get_post_meta($post->ID, 'wpcf-project-link', true); ?>">View the Project</a></div>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="avatar">
+                <?php the_post_thumbnail(); ?>
+                
+                <!--<img width="100%" height="100%" src="http://demo.athemes.com/sydney/wp-content/uploads/sites/35/2015/03/emp5.jpg" class="attachment-sydney-medium-thumb size-sydney-medium-thumb wp-post-image" alt="emp5" srcset="http://demo.athemes.com/sydney/wp-content/uploads/sites/35/2015/03/emp5.jpg 400w, http://demo.athemes.com/sydney/wp-content/uploads/sites/35/2015/03/emp5-150x150.jpg 150w, http://demo.athemes.com/sydney/wp-content/uploads/sites/35/2015/03/emp5-300x300.jpg 300w, http://demo.athemes.com/sydney/wp-content/uploads/sites/35/2015/03/emp5-180x180.jpg 180w" sizes="(max-width: 400px) 100vw, 400px">-->
+            </div>
+        </div>
+        <div class="team-content">
+            <div class="name">
+                <a href="<?php echo get_post_meta($post->ID, 'wpcf-project-link', true); ?>"><?php the_title(); ?></a>
+            </div>            
+        </div>
+    </div>
+</div>
