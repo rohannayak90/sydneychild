@@ -10,10 +10,32 @@ Text Domain:	Sydney-child
 -------------------------------------------------------------- */ 
 
 /* =Theme customization starts here
+
 ------------------------------------------------------- */
 
+html {
+    font-family: sans-serif;
+}
+
 body {
+	font-family: 'Open Sans', sans-serif;
 	line-height: 1.5;
+}
+
+h2 {
+	font-weight: 300;
+}
+
+.site-header {
+    padding: 10px 0;
+}
+
+.site-header.float-header {
+    padding: 10px 0 !important;
+}
+
+.site-description {
+    margin: 0 0;
 }
 
 a:hover, a:focus {
@@ -29,17 +51,32 @@ a:hover, a:focus {
 article img {
 	width: 100%;
 }
+
+.home article .entry-thumb img {
+    max-height: 260px;
+    object-fit: cover;
+}
+
+.archive article .entry-thumb img {
+    max-height: 260px;
+    object-fit: cover;
+}
+
 .hentry .title-post {
-	font-size: 20px;
+	font-size: 24px;
+	font-weight: 300;
     text-decoration: none;
 }
+
 .hentry .title-post a:hover, a:focus{	
     text-decoration: none;
 }
+
 #mainnav ul li a {
     text-transform: uppercase;
     font-weight: bold;
 }
+
 footer .site-info {
 	font-size: 14px;
 }
@@ -50,6 +87,7 @@ footer .site-info {
     width: 100%;
     height: 100%;
 }
+
 .jetpack-portfolio h2 {
     text-align: center;
 }
@@ -72,4 +110,5 @@ footer .site-info {
 .post-type-archive-jetpack-portfolio img {
     border: 1px solid #CCC;
 }
+
 /** PORTFOLIO STYLING END **/
