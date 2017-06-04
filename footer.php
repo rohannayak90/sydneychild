@@ -19,7 +19,7 @@
 
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<div class="site-info container">
-			© 2016<a href="http://www.murarim.com"> Murari M. </a>All Rights Reserved
+			© 2017<a href="http://www.murarim.com"> Murari M. </a>All Rights Reserved
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->

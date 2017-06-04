@@ -34,6 +34,10 @@ h2 {
     padding: 10px 0 !important;
 }
 
+.site-title {
+    font-weight: 200;
+}
+
 .site-description {
     margin: 0 0;
 }
@@ -74,7 +78,6 @@ article img {
 
 #mainnav ul li a {
     text-transform: uppercase;
-    font-weight: bold;
 }
 
 footer .site-info {
