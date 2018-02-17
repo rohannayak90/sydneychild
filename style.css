@@ -26,6 +26,10 @@ h2 {
 	font-weight: 300;
 }
 
+h3 {
+	font-weight: normal;
+}
+
 .site-header {
     padding: 10px 0;
 }
@@ -56,13 +60,17 @@ article img {
 	width: 100%;
 }
 
+article p {
+	margin-bottom: 10px;
+}
+
 .home article .entry-thumb img {
-    max-height: 260px;
+    max-height: 320px;
     object-fit: cover;
 }
 
 .archive article .entry-thumb img {
-    max-height: 260px;
+    max-height: 320px;
     object-fit: cover;
 }
 
@@ -74,6 +82,10 @@ article img {
 
 .hentry .title-post a:hover, a:focus{	
     text-decoration: none;
+}
+
+.content-area .entry-thumb {
+	margin-bottom: 20px;
 }
 
 #mainnav ul li a {

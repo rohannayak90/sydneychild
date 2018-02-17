@@ -4,7 +4,7 @@
  *
  * Contains the closing of the #content div and all content after
  *
- * @package Sydney
+ * @package SydneyChild
  */
 ?>
 			</div>
@@ -19,7 +19,7 @@
 
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<div class="site-info container">
-			© 2017<a href="http://www.murarim.com"> Murari M. </a>All Rights Reserved
+			© 2018<a href="http://www.murarim.com"> Murari M. </a>All Rights Reserved
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->
