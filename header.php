@@ -6,7 +6,8 @@
  *
  * @package SydneyChild
  */
-?><!DOCTYPE html>
+?>
+<!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 <head>
 <meta charset="<?php bloginfo( 'charset' ); ?>">
@@ -37,9 +38,11 @@
                 <div class="row">
 				<div class="col-md-4 col-sm-8 col-xs-12">
 		        <?php if ( get_theme_mod('site_logo') ) : ?>
-					<a href="http://www.murarim.com/" title="<?php bloginfo('name'); ?>"><img class="site-logo" src="<?php echo esc_url(get_theme_mod('site_logo')); ?>" alt="<?php bloginfo('name'); ?>" /></a>
+					<a href="https://www.murarinayak.com/" title="<?php bloginfo('name'); ?>">
+						<img class="site-logo" src="<?php echo esc_url(get_theme_mod('site_logo')); ?>" alt="<?php bloginfo('name'); ?>" />
+					</a>
 		        <?php else : ?>
-					<h1 class="site-title"><a href="http://www.murarim.com/" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
+					<h1 class="site-title"><a href="https://www.murarinayak.com/" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
 					<h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>	        
 		        <?php endif; ?>
 				</div>
