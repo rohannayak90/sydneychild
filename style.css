@@ -98,6 +98,10 @@ footer .site-info {
 	font-size: 14px;
 }
 
+footer .site-info a {
+    color: #11b563;
+}
+
 /** PORTFOLIO STYLING START **/
 /*
 .jetpack-portfolio img {

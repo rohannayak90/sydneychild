@@ -19,7 +19,7 @@
 
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<div class="site-info container">
-			© 2018<a href="https://www.murarinayak.com"> Murari Nayak </a>All Rights Reserved
+			© <a href="https://www.murarinayak.com"> Murari Nayak </a>All Rights Reserved
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->
