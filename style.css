@@ -15,12 +15,12 @@ Text Domain:	Sydney-child
 
 html {
     font-family: sans-serif;
+    font-size: 16px;
 }
 
 body {
 	font-family: 'Open Sans', sans-serif;
     line-height: 1.5;
-    font-size: 16px;
 }
 
 h1, h2, h3, h4, h5, h6 {
