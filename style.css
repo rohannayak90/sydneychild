@@ -26,12 +26,12 @@ body {
 h1, h2, h3, h4, h5, h6 {
 	font-weight: normal;
 }
-h1 { font-size: 3.0rem; }
-h2 { font-size: 2.0rem; }
-h3 { font-size: 1.8rem; }
-h4 { font-size: 1.6rem; margin: 20px 0 10px 0; font-weight: bold; }
-h5 { font-size: 1.4rem; margin: 10px 0; }
-h6 { font-size: 1.2rem; margin: 10px 0; }
+h1 { font-size: 2.0rem; }
+h2 { font-size: 1.8rem; }
+h3 { font-size: 1.5rem; }
+h4 { font-size: 1.4rem; margin: 20px 0 10px 0; font-weight: bold; }
+h5 { font-size: 1.2rem; margin: 10px 0; }
+h6 { font-size: 1.0rem; margin: 10px 0; }
 p  { font-size: 1rem;   }
 
 .site-header {
@@ -83,7 +83,7 @@ article p {
 }
 
 .hentry .title-post {
-	font-size: 24px;
+	/* font-size: 24px; */
 	font-weight: 300;
     text-decoration: none;
 }
@@ -117,6 +117,8 @@ footer .site-info a {
 pre {
     background: rgba(0, 0, 0, 0.05);
     border: none;
+    padding: 15px;
+    font-size: 0.8rem;
 }
 
 /** PORTFOLIO STYLING START **/
