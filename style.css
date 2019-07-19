@@ -78,6 +78,10 @@ article p {
     object-fit: cover;
 }
 
+.entry-content h3 {
+    margin: 20px 0 10px;
+}
+
 .hentry .title-post {
 	font-size: 24px;
 	font-weight: 300;
@@ -89,7 +93,7 @@ article p {
 }
 
 .hentry blockquote {
-    background-color: #CCC;
+    background-color: #EEEEEE;
     color: #000000;
     padding: 10px 20px;
 }
