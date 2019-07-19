@@ -88,6 +88,12 @@ article p {
     text-decoration: none;
 }
 
+.hentry blockquote {
+    background-color: #CCC;
+    color: #000000;
+    padding: 10px 20px;
+}
+
 .content-area .entry-thumb {
 	margin-bottom: 20px;
 }
@@ -102,6 +108,11 @@ footer .site-info {
 
 footer .site-info a {
     color: #11b563;
+}
+
+pre {
+    background: rgba(0, 0, 0, 0.05);
+    border: none;
 }
 
 /** PORTFOLIO STYLING START **/
