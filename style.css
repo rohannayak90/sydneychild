@@ -1,6 +1,6 @@
 /* 
 Theme Name:		Sydney Child
-Theme URI:		http://murarinayak.com
+Theme URI:		https://murarinayak.com
 Description:	Sydney Child theme
 Author:			Murari M
 Author URI:		https://www.murarinayak.com/
@@ -17,7 +17,7 @@ html {
     font-family: sans-serif;
     font-size: 16px;
 }
-
+/* 
 body {
 	font-family: 'Open Sans', sans-serif;
     line-height: 1.5;
@@ -52,7 +52,6 @@ p  { font-size: 1rem;   }
 
 a:hover, a:focus {
 	color: #ff0000;
-	/*text-decoration: underline;*/
 	-webkit-transition: all 0.1s ease-in-out;
 	-moz-transition: all 0.1s ease-in-out;
 	-ms-transition: all 0.1s ease-in-out;
@@ -83,7 +82,6 @@ article p {
 }
 
 .hentry .title-post {
-	/* font-size: 24px; */
 	font-weight: 300;
     text-decoration: none;
 }
@@ -124,7 +122,7 @@ pre {
     border: none;
     padding: 15px;
     font-size: 0.8rem;
-}
+} */
 
 /** PORTFOLIO STYLING START **/
 /*
@@ -144,7 +142,7 @@ pre {
     text-align: center;
 }*/
 
-.post-type-archive-jetpack-portfolio .team-info a {
+/* .post-type-archive-jetpack-portfolio .team-info a {
     color: #ffffff;
 }
 
@@ -154,6 +152,6 @@ pre {
 
 .post-type-archive-jetpack-portfolio img {
     border: 1px solid #CCC;
-}
+} */
 
 /** PORTFOLIO STYLING END **/
