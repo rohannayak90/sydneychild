@@ -17,116 +17,144 @@
 ------------------------------------------------------- */
 
 html {
-    font-family: sans-serif;
-    font-size: 16px;
-}
-/* 
-body {
-	font-family: 'Open Sans', sans-serif;
-    line-height: 1.5;
+  font-family: sans-serif;
+  font-size: 16px;
 }
 
-h1, h2, h3, h4, h5, h6 {
-	font-weight: normal;
+body {
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.5;
 }
-h1 { font-size: 2.0rem; }
-h2 { font-size: 1.8rem; }
-h3 { font-size: 1.5rem; }
-h4 { font-size: 1.4rem; margin: 20px 0 10px 0; font-weight: bold; }
-h5 { font-size: 1.2rem; margin: 10px 0; }
-h6 { font-size: 1.0rem; margin: 10px 0; }
-p  { font-size: 1rem;   }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+}
+
+h1 {
+  font-size: 2.0rem;
+}
+
+h2 {
+  font-size: 1.8rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-size: 1.4rem;
+  margin: 20px 0 10px 0;
+  font-weight: bold;
+}
+
+h5 {
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
+
+h6 {
+  font-size: 1.0rem;
+  margin: 10px 0;
+}
+
+p {
+  font-size: 1rem;
+}
 
 .site-header {
-    padding: 10px 0;
+  padding: 10px 0;
 }
 
 .site-header.float-header {
-    padding: 10px 0 !important;
+  padding: 10px 0 !important;
 }
 
 .site-title {
-    font-weight: 200;
+  font-weight: 200;
 }
 
 .site-description {
-    margin: 0 0;
+  margin: 0 0;
 }
 
-a:hover, a:focus {
-	color: #ff0000;
-	-webkit-transition: all 0.1s ease-in-out;
-	-moz-transition: all 0.1s ease-in-out;
-	-ms-transition: all 0.1s ease-in-out;
-	-o-transition: all 0.1s ease-in-out;
-	transition: all 0.1s ease-in-out; 
+a:hover,
+a:focus {
+  color: #ff0000;
+  -webkit-transition: all 0.1s ease-in-out;
+  -moz-transition: all 0.1s ease-in-out;
+  -ms-transition: all 0.1s ease-in-out;
+  -o-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
 }
 
 article img {
-	width: 100%;
+  width: 100%;
 }
 
 article p {
-    margin-bottom: 10px;
-}
-
-.home article .entry-thumb img {
-    max-height: 320px;
-    object-fit: cover;
+  margin-bottom: 10px;
 }
 
 .archive article .entry-thumb img {
-    max-height: 320px;
-    object-fit: cover;
+  max-height: 320px;
+  object-fit: cover;
 }
 
 .entry-content h3 {
-    margin: 20px 0 10px;
+  margin: 20px 0 10px;
 }
 
 .hentry .title-post {
-	font-weight: 300;
-    text-decoration: none;
+  font-weight: 300;
+  text-decoration: none;
 }
 
-.hentry .title-post a:hover, a:focus{	
-    text-decoration: none;
+.hentry .title-post a:hover,
+a:focus {
+  text-decoration: none;
 }
 
 .hentry blockquote {
-    background-color: #EEEEEE;
-    color: #000000;
-    padding: 10px 20px;
+  background-color: #EEEEEE;
+  color: #000000;
+  padding: 10px 20px;
 }
 
 blockquote cite {
-    display: block;
-    text-align: right;
+  display: block;
+  text-align: right;
 }
 
 .content-area .entry-thumb {
-	margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 #mainnav ul li a {
-    text-transform: uppercase;
+  text-transform: uppercase;
 }
 
 footer .site-info {
-	font-size: 14px;
+  font-size: 14px;
 }
 
 footer .site-info a {
-    color: #11b563;
+  color: #11b563;
 }
 
 pre {
-    background: rgba(0, 0, 0, 0.05);
-    border: none;
-    padding: 15px;
-    font-size: 0.8rem;
-} */
+  background: rgba(0, 0, 0, 0.05);
+  border: none;
+  padding: 15px;
+  font-size: 0.8rem;
+}
 
+*/
 /** PORTFOLIO STYLING START **/
 /*
 .jetpack-portfolio img {
@@ -145,16 +173,16 @@ pre {
     text-align: center;
 }*/
 
-/* .post-type-archive-jetpack-portfolio .team-info a {
-    color: #ffffff;
+.post-type-archive-jetpack-portfolio .team-info a {
+  color: #ffffff;
 }
 
 .roll-team.carousel .team-item {
-    padding: 0;
+  padding: 0;
 }
 
 .post-type-archive-jetpack-portfolio img {
-    border: 1px solid #CCC;
-} */
+  border: 1px solid #CCC;
+}
 
 /** PORTFOLIO STYLING END **/
